@@ -5,7 +5,6 @@ color cLetra = color (0, 255, 255);
 int value = 0;
 void setup() {
   size (600, 400);
-  //background(200);
   textAlign(CENTER, CENTER);
   //tipografía e imágenes
   letra1=loadFont("BernardMT-Condensed-35.vlw");
@@ -23,7 +22,6 @@ void setup() {
 void draw() {
   background(0);
   println(mouseY, mouseX);
-  //println(frameCount);
   //TEXTO 1
   imageMode(CENTER);
   tint (255);
@@ -42,7 +40,6 @@ void draw() {
     tint (255);
     image (Pixar, 300, 200, 600, 400);
     textFont(letra2);
-    //fill(255);
     fill(random(255));
     textSize(40);
     text("PRESENTA", 290, 330);
@@ -51,7 +48,6 @@ void draw() {
 
   //PANTALLA 3
   if ( frameCount > (6*65) ) {
-    //background(0);
     imageMode(CENTER);
     tint (255);
     image(Nubes, 300, 200, 600, 400);
