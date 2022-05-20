@@ -24,7 +24,6 @@ void draw() {
   println(mouseY, mouseX);
   //TEXTO 1
   imageMode(CENTER);
-  tint (255);
   image (Castillo, 300, 200, 600, 400);
 
   //PANTALLA 1
@@ -37,7 +36,6 @@ void draw() {
   //PANTALLA 2
   else if ((frameCount>290)&&(frameCount<400)) {
     imageMode(CENTER);
-    tint (255);
     image (Pixar, 300, 200, 600, 400);
     textFont(letra2);
     fill(random(255));
@@ -49,7 +47,6 @@ void draw() {
   //PANTALLA 3
   if ( frameCount > (6*65) ) {
     imageMode(CENTER);
-    tint (255);
     image(Nubes, 300, 200, 600, 400);
     textFont(letra3);
     fill(255, 0, 0);
@@ -71,7 +68,6 @@ void draw() {
   //directed by
   if ( frameCount > (6*78) ) {
     imageMode(CENTER);
-    tint (255);
     image(Negro, 300, 200, 600, 400);
     textFont (letra2);
     fill (239, 255, 75);
@@ -86,7 +82,6 @@ void draw() {
   //PANTALLA 5
   if ( frameCount > (6*85) ) {
     imageMode(CENTER);
-    tint (255);
     image(Negro, 300, 200, 600, 400);
     textFont (letra2);
     fill (239, 255, 75);
@@ -101,7 +96,6 @@ void draw() {
   //PANTALLA 6
   if ( frameCount > (6*90) ) {
     imageMode(CENTER);
-    tint (255);
     image(Negro, 300, 200, 600, 400);
     textFont (letra2);
     fill (239, 255, 75);
@@ -116,7 +110,6 @@ void draw() {
   //PANTALLA 7
   if ( frameCount > (6*95) ) {
     imageMode(CENTER);
-    tint (255);
     image(Negro, 300, 200, 600, 400);
     textFont (letra2);
     fill (239, 255, 75);
@@ -131,7 +124,6 @@ void draw() {
   //PANTALLA 8
   if ( frameCount > (6*100) ) {
     imageMode(CENTER);
-    tint (255);
     image(Negro, 300, 200, 600, 400);
     textFont (letra2);
     fill (239, 255, 75);
@@ -146,7 +138,6 @@ void draw() {
 //PANTALLA 9
   if ( frameCount > (6*105) ) {
     imageMode(CENTER);
-    tint (255);
     image(Negro, 300, 200, 600, 400);
     fill(random(10, 500), random(10, 500), 100);
     rect(230,250,100,90);
