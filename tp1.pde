@@ -1,8 +1,6 @@
 
 PFont letra1, letra2, letra3;
 PImage Castillo, Pixar, Nubes, Negro;
-color cLetra = color (0, 255, 255);
-int value = 0;
 void setup() {
   size (600, 400);
   textAlign(CENTER, CENTER);
